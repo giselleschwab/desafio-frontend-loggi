@@ -1,32 +1,30 @@
-## Desafio Frontend Loggi
+## Frontend Challenge Loggi
 
- ## Resumo do projeto
- Este projeto foi desenvolvido no Talent Fest da Laboratoria em parceria com a Loggi. O objetivo principal era criar uma interface amigável e intuitiva para que os usuários pudessem inserir o número do seu pedido e, assim, acessar as informações de rastreamento e o status atualizado do seu pedido.
+ ## Project Summary
+This project was developed during Laboratoria's Talent Fest in partnership with Loggi. The main goal was to create a user-friendly and intuitive interface so that users could enter their order number and access the tracking information and the updated status of their order.
 
- ## Protótipo
-Antes de iniciar o desenvolvimento completo do projeto, foi criado um protótipo no Figma para visualizar a interação do usuário na tela e a disposição dos elementos de forma mais precisa.
+ ## Prototype
+Before starting the full development of the project, a prototype was created in Figma to visualize the user interaction on the screen and the arrangement of the elements more accurately.
 
 <img src="public/prototipo.png" />
 
-## Descrição do projeto
-O projeto foi desenvolvido utilizando a biblioteca React e estilizada com a ajuda do Material UI. A aplicação possui uma interface composta por duas telas principais.
+## Project Description
+The project was developed using the React library and styled with the help of Material UI. The application has an interface consisting of two main screens:
 
-Tela principal:
-nessa tela o usuário tem a possibilidade de inserir o número do seu pedido em um campo específico. Após inserir o número, e clicar no botão "Acompanhar o pedido", o usuário é redirecionado automaticamente para a página de rastreamento, onde encontrará detalhes fundamentais sobre o andamento de sua encomenda.
+Main Screen: On this screen, the user has the option to enter their order number in a specific field. After entering the number and clicking on the "Track Order" button, the user is automatically redirected to the tracking page, where they will find key details about their order's progress.
 
-Página de rastreamento:
-Ao clicar no botão da tela principal, o usuário é redirecionado para a página de rastreamento. Nela, é possível visualizar o status atual do pedido, quem está levando sua encomenda, a previsão de chegada e também a rota que está sendo seguida para a entrega do produto.
+Tracking Page: When the user clicks the button on the main screen, they are redirected to the tracking page. Here, the user can view the current status of the order, who is delivering the package, the expected delivery time, and the route being followed for the product's delivery.
 
-API mock:
-Para garantir a eficácia e a realidade na representação da rota, foi desenvolvido uma API fake especialmente criada para esse fim. Essa API é responsável por fornecer dados fictícios como por exemplo de localização e status do pedido, criando uma experiência realista para o usuário.
+# API mock:
+o ensure the efficiency and realism of the route representation, a mock API was specially created for this purpose. This API provides fictitious data, such as the location and status of the order, creating a realistic experience for the user.
 
-## Simulando um rastreio
+## Simulating an Order Tracking
 
-Para simular um rastreio do pedido basta [acessar a aplicação](https://desafio-frontend-loggi.vercel.app/) e digitar o número do pedido (1, 2, 3) no campo "Código de rastreamento", e ao clicar em "Acompanhar o pedido" você é redirecionado para a página de rastreio.
+To simulate tracking, simply access the application and enter the order number (1, 2, or 3) in the "Tracking Code" field. After clicking on "Track Order," you will be redirected to the tracking page.
 
 
 | Pedido                    | Digite |
 |------------------------------|:----:|
-| Acesso ao rastreio do pedido 1 | 1 |
-| Acesso ao rastreio do pedido 2 | 2 |
-| Acesso ao rastreio do pedido 3 | 3 |
+| Access order tracking 1 | 1 |
+| Access order tracking 2| 2 |
+| Access order tracking 3 | 3 |

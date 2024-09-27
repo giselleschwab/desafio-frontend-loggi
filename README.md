@@ -15,7 +15,7 @@ Main Screen: On this screen, the user has the option to enter their order number
 
 Tracking Page: When the user clicks the button on the main screen, they are redirected to the tracking page. Here, the user can view the current status of the order, who is delivering the package, the expected delivery time, and the route being followed for the product's delivery.
 
-# API mock:
+## API mock:
 o ensure the efficiency and realism of the route representation, a mock API was specially created for this purpose. This API provides fictitious data, such as the location and status of the order, creating a realistic experience for the user.
 
 ## Simulating an Order Tracking
@@ -28,3 +28,7 @@ To simulate tracking, simply access the application and enter the order number (
 | Access order tracking 1 | 1 |
 | Access order tracking 2| 2 |
 | Access order tracking 3 | 3 |
+
+
+## Developed by: 
+Giselle Schwab
